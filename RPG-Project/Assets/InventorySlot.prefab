@@ -72,6 +72,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224608844226649708}
+  - component: {fileID: 114999179578297270}
   m_Layer: 5
   m_Name: InventorySlot
   m_TagString: Untagged
@@ -212,7 +213,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114261988868028762}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114999179578297270}
+        m_MethodName: OnRemoveButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114420242270974764
@@ -242,6 +254,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114999179578297270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599233038857384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca451ca4a5b3041309871c2a2c58c13f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 114358950670257832}
+  removeButton: {fileID: 114387883957944608}
 --- !u!222 &222226820582009828
 CanvasRenderer:
   m_ObjectHideFlags: 1

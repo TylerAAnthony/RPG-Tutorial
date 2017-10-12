@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 607406313}
-  m_IndirectSpecularColor: {r: 0.18329242, g: 0.22892532, b: 0.30629674, a: 1}
+  m_IndirectSpecularColor: {r: 0.18329322, g: 0.22892632, b: 0.30629802, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   interactionTransform: {fileID: 71876301}
-  item: {fileID: 11400000, guid: 026d89e2cc62a490387894247b624d76, type: 2}
+  item: {fileID: 11400000, guid: 7619ff433c97a43208c299c90b29fdeb, type: 2}
 --- !u!23 &71876298
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1748,7 +1748,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 452197637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.49, y: -4.19, z: 15.71}
+  m_LocalPosition: {x: -6.52, y: -4.23, z: 10.76}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2129,7 +2129,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 567609687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.4, y: -4.91, z: 10.56}
+  m_LocalPosition: {x: -6.34, y: -4.17, z: 12.54}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7237,6 +7237,7 @@ GameObject:
   - component: {fileID: 2068396608}
   - component: {fileID: 2068396607}
   - component: {fileID: 2068396606}
+  - component: {fileID: 2068396610}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7320,6 +7321,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2068396610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2068396605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219c89019f9c54a2c898a1155a8353f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsParent: {fileID: 342295662}
 --- !u!1 &2083484668
 GameObject:
   m_ObjectHideFlags: 0
